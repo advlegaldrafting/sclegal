@@ -45,7 +45,18 @@
   nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; font-size:16px; }
 
   /* Services Strip */
-  .services-strip { background-color:#ff77a9; color:white; padding:8px; text-align:center; font-size:16px; overflow:hidden; white-space:nowrap; animation: move 15s linear infinite; }
+  .services-strip {
+    background-color: #b30059; /* Dark Pink */
+    color: white;
+    padding: 16px 0; /* Double height (original 8px) */
+    text-align: center;
+    font-size: 32px; /* Double font-size */
+    font-weight: bold; /* Bold text */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: move 15s linear infinite;
+}
+
   @keyframes move { from { transform: translateX(100%);} to { transform: translateX(-100%);} }
 
   /* Services Boxes */
@@ -138,10 +149,17 @@
 </section>
 
 <section id="reviews" class="review-section">
-  <h2>Client Reviews</h2>
-  <p>We value your feedback. If you’ve used our services, please share your review to help us improve and assist others.</p>
-  <a href="https://forms.gle/" target="_blank">Leave a Review</a>
+  <div style="background-color:#b30059; color:white; padding:25px; border-radius:12px; text-align:left; margin: 20px 0;">
+    <h2>Client Reviews</h2>
+    <p>We value your feedback. If you’ve used our services, please share your review to help us improve and assist others.</p>
+    <p>Our clients appreciate our professional approach, timely responses, and detailed legal guidance.</p>
+    <p>We ensure every review is taken seriously and helps us enhance our services continuously.</p>
+    <p>Clients can leave their reviews online through our simple review form.</p>
+    <p>Your feedback helps us serve you and the community better in legal matters.</p>
+    <a href="https://forms.gle/" target="_blank" style="color:#fff; background-color:#e75480; padding:10px 15px; border-radius:8px; text-decoration:none; display:inline-block; margin-top:10px;">Leave a Review</a>
+  </div>
 </section>
+
 
 <section class="updates">
   <h2>Recent Updates</h2>
