@@ -79,19 +79,15 @@ footer a { color:#f6d365; text-decoration:none; margin:0 5px; }
     <a href="#contact">Contact</a>
   </nav>
 </header>
-
 <section class="hero">
   <section class="trusted-lawyer fade-in-section" style="background: linear-gradient(135deg, #f7f9fc, #e3efff); padding: 50px 40px; border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.1); position: relative; max-width: 1100px; margin: 30px auto; overflow: hidden; transition: transform 0.4s, box-shadow 0.4s;">
-
     <!-- 🔰 Trust Badge -->
     <div style="position: absolute; top: 20px; right: 20px; background: #0066cc; color: white; padding: 10px 18px; border-radius: 25px; font-size: 14px; font-weight: 600; display: flex; align-items: center; gap: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
       ✅ Verified Legal Expert
     </div>
-
     <h2 style="text-align:center; color:#003366; font-size:32px; font-weight:700; margin-bottom:20px; text-shadow: 1px 1px 5px rgba(0,0,0,0.2);">
       Your Trusted Property & Real Estate Lawyer
     </h2>
-
     <p style="font-size:18px; color:#333; line-height:1.9; text-align:justify; margin-bottom:25px;">
       At <strong>SC Legal Law Firm</strong>, we specialize in comprehensive <strong>Property and Real Estate Legal Services</strong> across
       <strong>Indirapuram, Vaishali, Vasundhara, Raj Nagar Extension, Crossing Republik, Wave City, Noida, and Greater Noida</strong>. 
@@ -123,10 +119,8 @@ footer a { color:#f6d365; text-decoration:none; margin:0 5px; }
         <div style="font-size:16px; font-weight:600; color:#333;">1000+ Satisfied Clients</div>
       </div>
     </div>
-
   </section>
 </section>
-
 <style>
 .fade-in-section {
   opacity: 0;
@@ -227,6 +221,48 @@ At <strong>SC Legal Law Firm</strong>, we believe that every property transactio
   <h2>About SC Legal</h2>
   <p>With years of experience in real estate law, SC Legal provides trusted legal services in Indirapuram, Shipra Sun City, Vaishali, Crossing Republic, Raj Nagar, Ghaziabad, Noida & Greater Noida. We specialize in documentation, due diligence, dispute resolution & compliance, making transactions safe & hassle-free.</p>
 </section>
+<section id="faq" style="max-width:1100px; margin:50px auto; padding:40px; background: linear-gradient(135deg, #e3f2fd, #fce4ec); border-radius:15px; box-shadow:0 0 25px rgba(0,0,0,0.15);">
+  <h2 style="text-align:center; color:#1a237e; font-size:28px; margin-bottom:30px;">Frequently Asked Questions</h2>
+
+  <div class="faq-item" style="margin-bottom:20px; background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); opacity:0; transform: translateY(50px); transition: opacity 0.8s, transform 0.8s;">
+    <h3 style="color:#1565c0; font-size:20px; margin-bottom:10px;">1️⃣ How can I legally sell my property?</h3>
+    <p style="color:#333; font-size:16px; line-height:1.7;">SC Legal assists in drafting and reviewing sale deeds, verifying property titles, ensuring all legal formalities are completed, and registering your property with the sub-registrar office safely.</p>
+  </div>
+
+  <div class="faq-item" style="margin-bottom:20px; background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); opacity:0; transform: translateY(50px); transition: opacity 0.8s, transform 0.8s;">
+    <h3 style="color:#2e7d32; font-size:20px; margin-bottom:10px;">2️⃣ What services are included under Real Estate Legal Services?</h3>
+    <p style="color:#333; font-size:16px; line-height:1.7;">We provide end-to-end services including property registration, legal documentation, dispute resolution, RERA compliance, due diligence, and advisory for buying, selling, or leasing property.</p>
+  </div>
+
+  <div class="faq-item" style="margin-bottom:20px; background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); opacity:0; transform: translateY(50px); transition: opacity 0.8s, transform 0.8s;">
+    <h3 style="color:#ad1457; font-size:20px; margin-bottom:10px;">3️⃣ How do I create or verify a Gift Deed?</h3>
+    <p style="color:#333; font-size:16px; line-height:1.7;">SC Legal drafts gift deeds that are legally valid and helps you register them. We ensure the deed meets all legal requirements and is executed properly to avoid disputes.</p>
+  </div>
+
+  <div class="faq-item" style="margin-bottom:20px; background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); opacity:0; transform: translateY(50px); transition: opacity 0.8s, transform 0.8s;">
+    <h3 style="color:#6a1b9a; font-size:20px; margin-bottom:10px;">4️⃣ How can I verify a property's legal status?</h3>
+    <p style="color:#333; font-size:16px; line-height:1.7;">Our experts conduct thorough property verification including title check, encumbrances, mutation records, RERA status, and NOC checks to ensure the property is safe for transaction.</p>
+  </div>
+
+  <div class="faq-item" style="margin-bottom:20px; background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); opacity:0; transform: translateY(50px); transition: opacity 0.8s, transform 0.8s;">
+    <h3 style="color:#ef6c00; font-size:20px; margin-bottom:10px;">5️⃣ How do I get legal assistance in drafting property agreements?</h3>
+    <p style="color:#333; font-size:16px; line-height:1.7;">We draft Sale Deeds, Agreements to Sell, Lease Deeds, Power of Attorney, and other property-related agreements customized to your transaction, ensuring legal compliance and protection of your rights.</p>
+  </div>
+</section>
+
+<!-- Fade-in JS -->
+<script>
+  const faqItems = document.querySelectorAll('.faq-item');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.style.opacity = 1;
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, {threshold: 0.2});
+  faqItems.forEach(item => observer.observe(item));
+</script>
 
 <section id="posts">
   <h2>Latest Posts</h2>
